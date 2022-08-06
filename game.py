@@ -196,7 +196,6 @@ paddle = Paddle(canvas, 'White')
 # создаём объект — красный шарик 
 ball = Ball(canvas, paddle, score, 'red')
 
-ballNew = NewBall(canvas, paddle, score, 'blue', 40, 40)
 # пока шарик не коснулся дна 
 while not ball.hit_bottom:
     # если игра началась и платформа может двигаться
