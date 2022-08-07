@@ -16,6 +16,7 @@ a = Man("Valera")
 b = Worker("Ivan")
 c = Programmer("Petr")
 
+
 a.greet()
 b.greet()
 c.greet()
