@@ -16,11 +16,20 @@ a = Man("Valera")
 b = Worker("Ivan")
 c = Programmer("Petr")
 
+people = []
+
+people.append(a)
+people.append(b)
+people.append(c)
 
 a.greet()
 b.greet()
 c.greet()
 
+print("------------")
+
+for person in people:
+    person.greet()
 
 
 
